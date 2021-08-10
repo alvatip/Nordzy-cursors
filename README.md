@@ -22,7 +22,7 @@ And for system wide installation use:
 sudo ./install
 ```
 ### tar.gz file
-Alternatively, you can use the tar.gz files located in the archive folder of this directory and extract them to the adequate directory.</br>
+Alternatively, you can use the tar.gz files located in the archive folder or in the release section and extract them to the adequate directory.</br>
 For local installation:
 ```
 tar -zxvf Nordzy-cursors.tar.gz -C $HOME/.icons/
