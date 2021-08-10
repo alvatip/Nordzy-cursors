@@ -22,7 +22,20 @@ And for system wide installation use:
 sudo ./install
 ```
 ### tar.gz file
-Alternatively, you can use the tar.gz files located in the archive folder of this directory and extract them to the adequate directory.
+Alternatively, you can use the tar.gz files located in the archive folder of this directory and extract them to the adequate directory.</br>
+For local installation:
+```
+tar -zxvf Nordzy-cursors.tar.gz -C $HOME/.icons/
+tar -zxvf Nordzy-white-cursors.tar.gz -C $HOME/.icons/
+```
+For system-wide installation: 
+```
+tar -zxvf Nordzy-cursors.tar.gz -C /usr/share/icons/
+tar -zxvf Nordzy-white-cursors.tar.gz -C /usr/share/icons/
+```
+### Set the cursor theme
+There are various way to set this (or another) cursor theme.</br>
+You will find all the needed informations on this [ArchWiki](https://wiki.archlinux.org/title/Cursor_themes#GNOME)
 ## Other ressources
 [Nordzy](https://github.com/alvatip/Nordzy-icon) icon theme. </br> 
 [Nordic](https://github.com/EliverLara/Nordic) GTK theme.
