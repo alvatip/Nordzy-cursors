@@ -1,12 +1,14 @@
 # Nordzy-Cursors
-------------------------
+
+![Nordzy dark icons](preview-black.png)
+![Nordzy white icons](preview-white.png)
 
 Cursor theme using the [Nord](https://github.com/arcticicestudio/nord) color palette and based on [Vimix](https://github.com/vinceliuice/Vimix-cursors) and [cz-Viator](https://github.com/charakterziffer/cursor-toolbox).
 
 ## Installation
 
 ### Installer
-To use the installer, clone the repository and go inside it. </br>
+To use the installer, clone the repository and go inside it.
 ```
 git clone xxx
 cd Nordzy-cursors
@@ -20,5 +22,9 @@ And for system wide installation (i.e for all the users) use:
 sudo ./install
 ```
 ### tar.gz file
-Alternatively, you can use the tar.gz 
+Alternatively, you can use the tar.gz from [](). </br>
+For local installation, extract it to 
+## License
+
+GNU General Public License v3.0.
 
