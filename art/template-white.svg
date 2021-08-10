@@ -206,9 +206,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284273"
-     inkscape:cx="555.0788"
-     inkscape:cy="418.96075"
+     inkscape:zoom="45.254837"
+     inkscape:cx="29.87526"
+     inkscape:cy="158.01626"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -224,7 +224,7 @@
      inkscape:window-width="1920"
      inkscape:window-height="1018"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="32"
      inkscape:window-maximized="1"
      inkscape:snap-nodes="true"
      inkscape:guide-bbox="true"
@@ -1848,7 +1848,7 @@
          inkscape:connector-curvature="0"
          id="path4801-6-4-9"
          d="m 28.004598,282.02355 a 1.0001,1.0001 0 0 0 -0.547378,0.36338 l -10.657241,14.29743 a 1.0001,1.0001 0 0 0 -0.158363,0.43333 l -0.595374,3.30675 a 1.0001,1.0001 0 0 0 1.41603,1.05823 l 3.002623,-1.50775 a 1.0001,1.0001 0 0 0 0.370768,-0.27459 L 31.492904,285.4029 a 1.0001,1.0001 0 0 0 -0.205732,-1.4227 l -2.40725,-1.799 a 1.0001,1.0001 0 0 0 -0.875324,-0.15765 z"
-         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#eceff4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate" />
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate" />
       <path
          sodipodi:nodetypes="ccccccccccc"
          inkscape:connector-curvature="0"
@@ -3432,7 +3432,7 @@
          inkscape:connector-curvature="0"
          id="path3637"
          d="m 28.004598,282.02355 a 1.0001,1.0001 0 0 0 -0.547378,0.36338 l -10.657241,14.29743 a 1.0001,1.0001 0 0 0 -0.158363,0.43333 l -0.595374,3.30675 a 1.0001,1.0001 0 0 0 1.41603,1.05823 l 3.002623,-1.50775 a 1.0001,1.0001 0 0 0 0.370768,-0.27459 L 31.492904,285.4029 a 1.0001,1.0001 0 0 0 -0.205732,-1.4227 l -2.40725,-1.799 a 1.0001,1.0001 0 0 0 -0.875324,-0.15765 z"
-         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#eceff4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate" />
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate" />
       <path
          sodipodi:nodetypes="ccccccccccc"
          inkscape:connector-curvature="0"
