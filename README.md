@@ -33,6 +33,12 @@ For system-wide installation:
 tar -zxvf Nordzy-cursors.tar.gz -C /usr/share/icons/
 tar -zxvf Nordzy-white-cursors.tar.gz -C /usr/share/icons/
 ```
+### Also available on Pling
+<p align="center">
+  <a href="https://www.pling.com/p/1571937/" >
+    <img title="Nordzy-cursors Pling Store" width="40%" src="https://imgur.com/VxSgrWw.png">
+  </a>
+</p>
 ### Set the cursor theme
 There are various way to set this (or another) cursor theme.</br>
 You will find all the needed informations on this [ArchWiki](https://wiki.archlinux.org/title/Cursor_themes#GNOME)
