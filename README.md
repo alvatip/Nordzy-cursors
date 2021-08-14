@@ -2,9 +2,11 @@
 <p align="center">
 	<img src="./art/logo.png" alt="Nordzy-cursors logo">
 </p>
-![GitHub all releases](https://img.shields.io/github/downloads/alvatip/Nordzy-cursors/total?color=brightgreen)
-![GitHub](https://img.shields.io/github/license/alvatip/Nordzy-cursors?color=blue)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/alvatip/Nordzy-cursors?color=9cf)
+<p align="center">
+	<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/alvatip/Nordzy-cursors/total?color=brightgreen"> 
+	<img alt="GitHub" src="https://img.shields.io/github/license/alvatip/Nordzy-cursors?color=blue"> 
+	<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/alvatip/Nordzy-cursors?color=9cf">
+</p>
 
 Cursor theme using the [Nord](https://github.com/arcticicestudio/nord) color palette and based on [Vimix](https://github.com/vinceliuice/Vimix-cursors) and [cz-Viator](https://github.com/charakterziffer/cursor-toolbox).
 
