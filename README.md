@@ -37,12 +37,12 @@ Alternatively, you can use the tar.gz files located in the archive folder or in 
 For local installation:
 ```
 tar -zxvf Nordzy-cursors.tar.gz -C $HOME/.icons/
-tar -zxvf Nordzy-white-cursors.tar.gz -C $HOME/.icons/
+tar -zxvf Nordzy-cursors-white.tar.gz -C $HOME/.icons/
 ```
 For system-wide installation: 
 ```
 tar -zxvf Nordzy-cursors.tar.gz -C /usr/share/icons/
-tar -zxvf Nordzy-white-cursors.tar.gz -C /usr/share/icons/
+tar -zxvf Nordzy-cursors-white.tar.gz -C /usr/share/icons/
 ```
 ### Also available on Pling
 <p align="left">
@@ -59,12 +59,10 @@ You will find all the needed informations on this [ArchWiki](https://wiki.archli
 If you installed it locally, run this command in your terminal: 
 ```
 rm -r $HOME/.icons/Nordzy-cursors*
-rm -r $HOME/.icons/Nordzy-white-cursors*
 ```
 And if you installed it system-wide use:
 ```
 sudo rm -r /usr/share/icons/Nordzy-cursors*
-sudo rm -r /usr/share/icons/Nordzy-white-cursors*
 ```
 ## Other ressources
 [Nordzy](https://github.com/alvatip/Nordzy-icon) icon theme. </br> 

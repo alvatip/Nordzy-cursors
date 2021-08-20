@@ -7,7 +7,7 @@ DEST_DIR=
 if [ "$UID" -eq "$ROOT_UID" ]; then
   DEST_DIR="/usr/share/icons"
 else
-  DEST_DIR="$HOME/.local/share/icons"
+  DEST_DIR="$HOME/.icons/"
   mkdir -p $DEST_DIR
 fi
 
@@ -19,8 +19,8 @@ if [ -d "$DEST_DIR/Nordzy-white-cursors" ]; then
   rm -rf "$DEST_DIR/Nordzy-white-cursors"
 fi
 
-cp -r nordzy-dark/ $DEST_DIR/Nordzy-cursors
-cp -r nordzy-white/ $DEST_DIR/Nordzy-white-cursors
+cp -r Nordzy-cursors/ $DEST_DIR/Nordzy-cursors
+cp -r Nordzy-cursors-white/ $DEST_DIR/Nordzy-cursors-white
 
 echo "Finished..."
 
