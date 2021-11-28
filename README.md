@@ -26,11 +26,11 @@ cd Nordzy-cursors
 ```
 Then, run the installer script. For local installation, use
 ``` 
-./install
+./install.sh
 ```
 And for system wide installation use:
 ``` 
-sudo ./install
+sudo ./install.sh
 ```
 ### tar.gz file
 Alternatively, you can use the tar.gz files located in the archive folder or in the release section and extract them to the adequate directory.</br>
