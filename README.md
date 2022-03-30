@@ -18,6 +18,8 @@ Cursor theme using the [Nord](https://github.com/arcticicestudio/nord) color pal
 
 ## Installation
 
+## Linux
+
 ### Installer
 To use the installer, clone the repository and go inside it.
 ```
@@ -44,7 +46,15 @@ For system-wide installation:
 tar -zxvf Nordzy-cursors.tar.gz -C /usr/share/icons/
 tar -zxvf Nordzy-cursors-white.tar.gz -C /usr/share/icons/
 ```
-### Also available on Pling
+
+## Windows
+
+To install the cursor theme on windows: 
+1. Download "nordzy_cursors_windows.zip"
+2. Extract the .zip file
+3. In the folder, right click on the file "install.inf" and in the option choose "install"
+
+## Also available on Pling
 <p align="left">
   <a href="https://www.pling.com/p/1571937/" >
     <img title="Nordzy-cursors Pling Store" width="25%" src="https://imgur.com/VxSgrWw.png">
