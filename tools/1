@@ -1,0 +1,3 @@
+./linux.sh: line 9: kill: (123280) - No such process
+./linux.sh: line 9: kill: (2) - Operation not permitted
+./linux.sh: line 9: kill: /dev/null: arguments must be process or job IDs
