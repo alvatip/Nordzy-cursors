@@ -47,6 +47,19 @@ tar -zxvf Nordzy-cursors.tar.gz -C /usr/share/icons/
 tar -zxvf Nordzy-cursors-white.tar.gz -C /usr/share/icons/
 ```
 
+### Set the cursor theme
+There are various way to set this (or another) cursor theme.</br>
+You will find all the needed informations on this [ArchWiki](https://wiki.archlinux.org/title/Cursor_themes#GNOME)
+
+### Uninstallation
+If you installed it locally, run this command in your terminal: 
+```
+rm -r $HOME/.icons/Nordzy-cursors*
+```
+And if you installed it system-wide use:
+```
+sudo rm -r /usr/share/icons/Nordzy-cursors*
+```
 ## Windows
 
 To install the cursor theme on windows: 
@@ -61,19 +74,6 @@ To install the cursor theme on windows:
   </a>
 </p>
 
-### Set the cursor theme
-There are various way to set this (or another) cursor theme.</br>
-You will find all the needed informations on this [ArchWiki](https://wiki.archlinux.org/title/Cursor_themes#GNOME)
-
-### Uninstallation
-If you installed it locally, run this command in your terminal: 
-```
-rm -r $HOME/.icons/Nordzy-cursors*
-```
-And if you installed it system-wide use:
-```
-sudo rm -r /usr/share/icons/Nordzy-cursors*
-```
 ## Other ressources
 [Nordzy](https://github.com/alvatip/Nordzy-icon) icon theme. </br> 
 [Nordic](https://github.com/EliverLara/Nordic) GTK theme.
