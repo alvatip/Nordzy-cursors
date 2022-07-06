@@ -2,6 +2,7 @@
 
 ROOT_UID=0
 DEST_DIR=
+cursors_list="Nordzy-cursors Nordzy-cursors-white Nordzy-cursors-lefthand"
 
 # Destination directory
 if [ "$UID" -eq "$ROOT_UID" ]; then
@@ -12,15 +13,20 @@ else
 fi
 
 # Remove folder if existing
-if [ -d "$DEST_DIR/Nordzy-cursors" ]; then
-  rm -rf "$DEST_DIR/Nordzy-cursors"
-fi
-if [ -d "$DEST_DIR/Nordzy-white-cursors" ]; then
-  rm -rf "$DEST_DIR/Nordzy-white-cursors"
-fi
+clean(){
+  if [ -d "$DEST_DIR/${1}" ]; then
+    rm -rf "$DEST_DIR/${1}"
+  fi
+}
 
-cp -r Nordzy-cursors/ $DEST_DIR/Nordzy-cursors
-cp -r Nordzy-cursors-white/ $DEST_DIR/Nordzy-cursors-white
+# Install cursors theme
+install(){
+  cp -r ${1}/ $DEST_DIR/${1}
+  echo "${1} installed!"
+}
 
-echo "Finished..."
-
+for cursors_theme in ${cursors_list}
+do
+  clean ${cursors_theme}
+  install ${cursors_theme}
+done

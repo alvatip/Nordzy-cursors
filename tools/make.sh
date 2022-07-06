@@ -2,6 +2,7 @@
 
 # Set the name of your cursor theme
 themetitle=${1}
+lefthand_variant=${2}
 
 if [ -z ${1} ]
 then
@@ -15,7 +16,7 @@ else
 	Name="'$themetitle'"' > $foldername/index.theme
 
 	# Go to hotspots folder, render the PNGs according to those files
-	cd hotspots/
+	cd "hotspots${2}"/
 	for f in *.in ; do
 		xcursorgen "$f" ../$foldername/cursors/"${f%.in}" ;
 	done

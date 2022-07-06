@@ -2,7 +2,7 @@
 
 # Renders all the cursors for linux and create the archives at the appropriate place.
 
-theme_name="Nordzy-cursors Nordzy-cursors-white"
+theme_name="Nordzy-cursors Nordzy-cursors-lefthand Nordzy-cursors-white"
 
 animation(){
 	frames=(". .. ...")
@@ -33,13 +33,17 @@ do
 	# Remove old theme
 	rm -rf ../${theme}
 	# Renders PNGs
-	# echo -n "Rendering the PNGs for ${theme}..."
 	png_render ${theme} 2&>1 /dev/null &
 	pid=$!
 	animation $pid ${theme}
 	# Make X11 cursors
 	echo "Making the X11 cursors for ${theme}..."
-	./make.sh ${theme}
+	# If this is a lefthand variant, we must use the lefthand hostspot file
+	if [[ ${theme} =~ .*lefthand ]]; then
+		./make.sh ${theme} '-lefthand'
+	else
+		./make.sh ${theme}
+	fi
 	
 
 	# Create archives
