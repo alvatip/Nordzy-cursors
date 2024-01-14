@@ -95,9 +95,9 @@ run(){
 
 	# Move the archives to the right folder
 	extensions="zip gz"
+	rm -rf ../archives/*
 	for archive in ${extensions}
 	do
-		rm -rf ../archives/*
 		mv *${archive} ../archives/
 	done
 	echo "The cursors theme is finished!"
