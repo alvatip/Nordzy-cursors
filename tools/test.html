@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>Cursor Test</title>
+<meta name="author" content="Gerhard Großmann, postfach2b@web.de">
+
+<link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAATXSURBVEiJpZZNaBtHFMf/syNrV+pKsiUvVhURO0TYGEMOyi1YQS6Ji4zdXhpyyKGkzb2QQ6D40KSBQE+5hUKdQCG+JKUhgTomgXaFkvjiJAR6CMW4xpZky7IUy9qPWe2upgdbjmLcNNQPHjMMb99v3rw3b5ZgW0jbyHfmrfFAIuw4JQA+AUABePasH1gIAA8hxKSUjimKIsfjcV86nW4H/W9pOaCcc0mSpF80TRsNhUK+er3uPX78OMUBIxEAkFgsRgFgdnbWRym9XSqVPo3FYv5IJHJgiAAA3d3dBACGh4fx8OFDH2Ps1suXL0cPHTp0YIiQTqdJOBze/XAHItVqtZvZbPZDIWQffRvBXhkeHsbMzIxULpencrncv0FaKgAQzpw5s6uXL19urROSTqc9iqJId+/erXP+buk/efIEY2NjrKen50IqlXpUKBSMSqXSeP78uQsA6XRayOfzNBQK0UgkQgBAFEW+sbHBt7a2XEVRmp73nV8rkrGxsalcLnchlUo9ajQaZGhoqAEAqqpa7faSJJmyLK9YlnXrxIkTP3m9XrbvEe0HKZVKU9lsdvTIkSO+zs5O0XEcEQA457taKBR8d+7c6R8YGPjuxYsX38uy7P9PwN6cPH78eFSSJL8sy+Jeu3A4jJGREUxPT/ssyzoXDoc/+iBAO6RWq029evXqlG3bEgAQQkAIgdfrde/fvw8A6O3thWEYgWAwKL43B+vr6+jt7eWMsfbSlHRdv8kY+3JwcLAvGo1Ki4uLE9Vq9Wo0GqUAoKoqurq6VimldF+AqqrQNA3j4+M4d+6c/ezZs1/Pnz//48rKipnP543l5WVzbW3N0jStOT8/PyIIwlVVVaVkMom5uTmcPXuWDQwM/OC6risAQLlcfsd5JpOxr1y5YgDApUuXvMvLy58tLi6Szc1No1Kp6IwxHYDZbDYtSum1Bw8eSMlkEjdu3HBHR0eNwcHByfHx8axhGO9WUS6Xw8TEhJlMJr9dWFhozM/Po7+/H6lUiszMzGQIIQ1BEEzTNE3HcZjP57M3Nzc/PnnyJADg4sWLPJPJfHn69Ok/3rx5o6+vrxuCqqq8Wq1yAMhkMmZPT883yWQyK8vy9PXr1xkATE5O+mq12leCIAg+n8+VZdkJBAIOpZS3J9qyLE8sFlspFApGPp83VldXtyPY2NjghBBGKf26r68vu7S0VDt8+PDP9+7dQ6lUguu6sG27c3Z29pQkSaSjo4MDgMfj4cDbuwAAW1tbdrVatcrlMsvn87YHAC8Wiy6l9ItIJDJfLBYFSmmzu7u77vf7fzt69OjnoiiWg8Hg7UQiMccY48B2S9ivQBhjjmVZjm3bbjwedz3Yfntd13V/r9frnnq9DkIIt22biKJ4zev1To+MjPzpum5T13WmaZpdqVSakUiEA2iGQqG/CCH9ANDV1fW34zhWo9GwGWPu06dP+d6uuFvvQ0NDhFLaEQwGvYFAwKNpGkRRbLx+/bqRSCRsVVV5IpHwRKNRv9/vlwOBgAQA9XqdGYahra2tGQsLCzZti463abNcLvN4PM5LpZLLOXcIIY1isWj39fU5qqo2AeDYsWPQdR0AmoIgNGzbZrquM9M0LUVRnKWlpeb7Xqj2X5nWvLWBXZtWy1YUpXWnmvF43N3ZBP8HLtxhvxKNmpYAAAAASUVORK5CYII=">
+
+<style>
+<!--
+body { background: #bcb; color: #555;
+	display: grid; grid-gap: 1em; grid-auto-rows: minmax(4.5em, auto);
+	grid-template-columns: repeat(auto-fill, minmax(9em, 1fr)); }
+body > div { background: #fff; box-shadow: 2px 2px 4px rgba(0,0,0,.3);
+	display:flex; justify-content:center; align-items:center; margin:0; }
+
+@supports not (display: grid) {
+	body { display: flex; flex-wrap: wrap; }
+	body > div { flex: 1 1 9em; height: 4.5em; margin: .5em; }
+	}
+-->
+</style>
+</head>
+
+<body>
+<div style="cursor:auto">auto</div>
+<div style="cursor:default">default</div>
+<div style="cursor:none">none</div>
+<div style="cursor:context-menu">context-menu</div>
+<div style="cursor:help">help</div>
+<div style="cursor:pointer">pointer</div>
+<div style="cursor:progress">progress</div>
+<div style="cursor:wait">wait</div>
+<div style="cursor:cell">cell</div>
+<div style="cursor:crosshair">crosshair</div>
+<div style="cursor:text">text</div>
+<div style="cursor:vertical-text">vertical-text</div>
+<div style="cursor:alias">alias</div>
+<div style="cursor:copy">copy</div>
+<div style="cursor:move">move</div>
+<div style="cursor:no-drop">no-drop</div>
+<div style="cursor:not-allowed">not-allowed</div>
+<div style="cursor:all-scroll">all-scroll</div>
+<div style="cursor:col-resize">col-resize</div>
+<div style="cursor:row-resize">row-resize</div>
+<div style="cursor:n-resize">n-resize</div>
+<div style="cursor:e-resize">e-resize</div>
+<div style="cursor:s-resize">s-resize</div>
+<div style="cursor:w-resize">w-resize</div>
+<div style="cursor:ne-resize">ne-resize</div>
+<div style="cursor:nw-resize">nw-resize</div>
+<div style="cursor:se-resize">se-resize</div>
+<div style="cursor:sw-resize">sw-resize</div>
+<div style="cursor:ew-resize">ew-resize</div>
+<div style="cursor:ns-resize">ns-resize</div>
+<div style="cursor:nesw-resize">nesw-resize</div>
+<div style="cursor:nwse-resize">nwse-resize</div>
+<div style="cursor:zoom-in">zoom-in</div>
+<div style="cursor:zoom-out">zoom-out</div>
+<div style="cursor:grab">grab</div>
+<div style="cursor:grabbing">grabbing</div>
+</body></html>
