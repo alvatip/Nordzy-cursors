@@ -3,8 +3,31 @@
 svg_template_main="svgs/nordzy-templates/Nordzy-cursors-template.svg"
 svg_template_spinner="svgs/nordzy-templates/Nordzy-cursors-spinner-template.svg"
 
-usage(){
-	echo "Coming soon..."
+# Display ascii art
+ascii_art() {
+  cat < ../nordzy-ascii-art.txt
+  sleep 0.5
+}
+
+# Show help
+usage() {
+cat << EOF
+$0 helps you create Nordzy-cursor custom theme on your computer.
+
+Usage: $0 [OPTION]...
+
+OPTIONS:
+	-a, --accent COLOR 			Change accent color (default: Nord_turquoise) to the specified color in hexadecimal format.
+  -b, --border COLOR      Change border color (default: white) to the specified color in hexadecimal format.
+  -f, --fill COLOR        Change fill color (default: black) to the specified color in hexadecimal format.
+  -g, --green COLOR 			Change green color (default: green) to the specified color in hexadecimal format.
+  -h, --help              Show help.
+  -n, --name NAME         Specify theme name (Default: default_name).
+  -o, --orange COLOR 			Change orange color (default: orange) to the specified color in hexadecimal format.
+  -p, --purple COLOR 			Change purple color (default: purple) to the specified color in hexadecimal format.
+  -r, --red COLOR 				Change red color (default: red) to the specified color in hexadecimal format.
+
+EOF
 }
 
 # Display an animation during long working time (ex. Creation of the theme)
@@ -103,6 +126,7 @@ run(){
 	echo "The cursors theme is finished!"
 }
 
+ascii_art
 while [[ "$#" -gt 0 ]]; do
   case "${1:-}" in
     -h|--help)
@@ -110,37 +134,37 @@ while [[ "$#" -gt 0 ]]; do
       exit 0
       ;;
     -n|--name)
-	  theme_name=${2}
-	  shift 2
-	  ;;
-	-f|--fill)
-	  theme_color_fill=${2}
-	  shift 2
-	  ;;
-	-b|--border)
-	  theme_color_border=${2}
-	  shift 2
-	  ;;
+		  theme_name=${2}
+		  shift 2
+		  ;;
+		-f|--fill)
+		  theme_color_fill=${2}
+		  shift 2
+		  ;;
+		-b|--border)
+		  theme_color_border=${2}
+		  shift 2
+		  ;;
   	-a|--accent)
-	  theme_color_accent=${2}
-	  shift 2
-	  ;;
-	-p|--purple)
-	  theme_color_purple=${2}
-	  shift 2
-	  ;;
-	-g|--green)
-	  theme_color_green=${2}
-	  shift 2
-	  ;;
-	-r|--red)
-	  theme_color_red=${2}
-	  shift 2
-	  ;;
-	-o|--orange)
-	  theme_color_orange=${2}
-	  shift 2
-	  ;;
+		  theme_color_accent=${2}
+		  shift 2
+		  ;;
+		-p|--purple)
+		  theme_color_purple=${2}
+		  shift 2
+		  ;;
+		-g|--green)
+		  theme_color_green=${2}
+		  shift 2
+		  ;;
+		-r|--red)
+		  theme_color_red=${2}
+		  shift 2
+		  ;;
+		-o|--orange)
+		  theme_color_orange=${2}
+		  shift 2
+		  ;;
     *)
       echo "Unrecognized parameter ${1}"
       exit 1
