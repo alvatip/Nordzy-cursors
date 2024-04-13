@@ -394,8 +394,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8284273"
-     inkscape:cx="155.03315"
-     inkscape:cy="127.98632"
+     inkscape:cx="155.74026"
+     inkscape:cy="128.33987"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -727,7 +727,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="shadows"
-     style="opacity:0.4"
+     style="display:none;opacity:0.4"
      transform="translate(0,-360)"
      sodipodi:insensitive="true">
     <g

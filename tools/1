@@ -1,3 +1,3 @@
-./custom_theme.sh: line 13: kill: (512956) - No such process
-./custom_theme.sh: line 13: kill: (2) - Operation not permitted
-./custom_theme.sh: line 13: kill: /dev/null: arguments must be process or job IDs
+./custom_theme.sh: line 36: kill: (255712) - No such process
+./custom_theme.sh: line 36: kill: (2) - Operation not permitted
+./custom_theme.sh: line 36: kill: /dev/null: arguments must be process or job IDs

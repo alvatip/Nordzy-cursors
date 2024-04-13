@@ -832,9 +832,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="16.000002"
-     inkscape:cx="256.71872"
-     inkscape:cy="61.312492"
+     inkscape:zoom="4.0000005"
+     inkscape:cx="129.37498"
+     inkscape:cy="84.749989"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -1283,7 +1283,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="shadow"
-     style="display:inline;opacity:0.3"
+     style="display:none;opacity:0.3"
      transform="translate(0,-80)"
      sodipodi:insensitive="true">
     <path
